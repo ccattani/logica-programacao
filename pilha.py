@@ -1,5 +1,7 @@
+from collections import deque
+
 def criaPilha():
-    return []
+    return deque()
 
 def insereNaPilha(pilha, elemento):
     pilha.append(elemento)
